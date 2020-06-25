@@ -1,0 +1,41 @@
+body {
+    background: url("https://i.pinimg.com/originals/8d/f7/d3/8df7d3dba5d2fc5a33f594132acc0424.jpg") no-repeat center center fixed;
+
+    }
+
+h1 {
+    color: cornsilk;
+}
+
+nav ul {
+    list-style-type: none;
+    margin:0px;
+    padding-left: 0px;
+    font-size: 1.2em;
+    overflow: hidden;
+    background-color: rgb(100, 98, 0);
+}
+
+li {
+    display: inline;
+  }
+
+  li a {
+    display: inline-block;
+    padding: 10px; 
+    font-size: 18px;
+  }
+
+
+  nav a {
+      text-decoration: none;
+  }
+  
+  nav a:link {
+      color: #5C7FA3;
+  }
+
+  nav a:hover {
+      color:red;
+      transition: color 3s ease-out;
+  }
